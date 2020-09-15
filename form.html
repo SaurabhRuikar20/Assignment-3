@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+		
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Form</title>
+									
+							
+	</head>
+    <body>
+        <div id="content">
+            <div class="container-fluid decor_bg" id="login-panel">
+			<div class="col-md-6">
+                        <div class="panel panel-primary" >
+                            <div class="panel-heading">
+                                <center><h4> Form</h4></center>
+                            </div>
+                            <div class="panel-body">
+                                
+                               
+                            </div>
+                            <form>
+									<div class="form-group">
+										<label for="Name">Name</label>
+                                        <input type="text" class="form-control" name="Name" id="Name" required>
+                                    </div>
+									
+									<div class="form-group">
+										<label for="mobileNo">Mobile Number</label>
+                                        <input type="tel" class="form-control" name="mobileNo" id="mobileNo" pattern="^\d{10}" required>
+										
+                                    </div>
+									
+									<div class="form-group">
+									  <label for="Address">Address:</label>
+									  <textarea class="form-control" rows="5" id="address" required></textarea>
+									</div>
+																	
+									<div class="form-group">
+										<label for="emailId">Email Id</label>
+                                        <input type="email" class="form-control" name="emailId" id="emailId" required>
+                                    </div>
+							
+									<div class="form-group">
+										<label for="dob">Date of Birth</label>
+                                        <input type="date" class="form-control" name="dob" id="dob" required>
+                                    </div>
+									
+									
+																			
+											<center><button type="submit" name="submit" id="btn" class="btn btn-primary">Submit</button></center>													
+								       </div>
+									</form>
+
+                </div>
+				</div>
+            </div>
+        </div>
+    </body>
+</html>
